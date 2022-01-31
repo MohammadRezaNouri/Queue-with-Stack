@@ -34,3 +34,10 @@ void queue::dequeue() // remove in queue (front)
         s2.pop();
     }
 }
+
+int queue::getF() // get front
+{
+    if (s1.empty())
+        throw std::invalid_argument("Queue is empty!");
+    return front;
+}
