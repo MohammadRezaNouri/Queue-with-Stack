@@ -41,3 +41,10 @@ int queue::getF() // get front
         throw std::invalid_argument("Queue is empty!");
     return front;
 }
+
+int queue::getR() // Get rear
+{
+    if (s1.empty())
+        throw std::invalid_argument("Queue is empty!");
+    return rear;
+}
