@@ -89,5 +89,17 @@ void other()
 
 int main()
 {
+    you();
+
+    printf("\n");
+
+    my();
+
+    printf("\n");
+
+    other();
+
+    printf("Press enter to exit...");
+    getchar();
     return 0;
 }
